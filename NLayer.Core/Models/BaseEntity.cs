@@ -10,6 +10,6 @@ namespace NLayer.Core.Models
     {
         public int Id { get; set; }
         public DateTime CreatedDate { get; set; }
-        public DateTime UptatedDate { get; set; }
+        public DateTime? UptatedDate { get; set; }
     }
 }
