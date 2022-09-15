@@ -26,13 +26,13 @@ namespace NLayer.Repository.Seeds
             },
             new Product
             {
-                Id=2,
+                Id = 2,
                 CategoryId = 1,
-                Name="Kalem 2",
-                Price=200,
-                Stock=10,
+                Name = "Kalem 2",
+                Price = 200,
+                Stock = 10,
                 CreatedDate = DateTime.Now
-            }, 
+            },
             new Product
             {
                 Id = 3,
@@ -41,7 +41,7 @@ namespace NLayer.Repository.Seeds
                 Price = 280,
                 Stock = 105,
                 CreatedDate = DateTime.Now
-            }, 
+            },
             new Product
             {
                 Id = 4,
@@ -53,11 +53,11 @@ namespace NLayer.Repository.Seeds
             },
             new Product
             {
-                Id=5,
+                Id = 5,
                 CategoryId = 3,
-                Name="Defter 1",
-                Price=350,
-                Stock=110,
+                Name = "Defter 1",
+                Price = 350,
+                Stock = 110,
                 CreatedDate = DateTime.Now
             });
 
