@@ -11,6 +11,11 @@ namespace NLayer.Repository.UnitOfWorks
     {
         private readonly AppDbContext _context;
 
+        public UnitOfWork(AppDbContext context)
+        {
+            _context = context;
+        }
+
         public void Commit()
         {
             _context.SaveChanges();
