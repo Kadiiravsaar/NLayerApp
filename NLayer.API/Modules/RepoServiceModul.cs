@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using NLayer.Caching;
 //using NLayer.Caching;
 using NLayer.Core.Repositories;
 using NLayer.Core.Services;
@@ -53,9 +54,9 @@ namespace NLayer.API.Modules
             // transit => herhangi bir classın ctor da o interface nerde geçtiyse yeni bir instance oluştur
 
 
+            builder.RegisterType<ProductServiceWithCaching>().As<IProductService>();
 
 
-            
         }
     }
 }
